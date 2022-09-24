@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+}
+
+article>img{
+  max-width: 88%;
+  margin-top: 1.4rem;
+  border-radius: 0.6rem;
+}
+
+article{
+  width: auto;
+  text-align: center;
+}
+
+h1{
+  color:  hsl(0, 0%, 100%);
+  margin: 1rem 0 0.8rem 0.9rem;
+  font-weight: 300;
+}
+
+p{
+  font-size: 14px;
+}
+
+hr{
+ border-top: 1px #333;
+ width: 90%;
+ margin: auto;
+ color: #333;
+}
+
+.container{
+  background-color: hsl(216, 50%, 16%);
+  margin: 1rem 6rem 0.5rem 6rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.text{
+    margin: 0.3rem 0 0.8rem 0.9rem;
+    width: 80%;
+    line-height: 1.6;
+    font-weight: 100;
+    color:  rgb(180, 180, 180);
+}
+
+.eth-img{
+  margin-right: 0.3rem;
+}
+
+.lil-txt, .lil-txt1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+div>.lil-txt1{
+  margin: 0 0 0.7rem 6.8rem;
+  color: gray;
+  font-weight: 100;
+  color:  rgb(180, 180, 180);
+}
+
+div>.lil-txt{
+  margin: 0 0 0.7rem 1rem;
+  color: hsl(178, 100%, 50%);
+}
+
+#position{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+#footer-img{
+  margin: 1rem 0 1rem 0.7rem;
+}
+
+.float{
+  float: left;
+  max-width: 11%;
+  max-height: 11%;
+  border-radius: 50%;
+  border-style: ridge;
+  border-width: thin;
+  border-color: White;
+  margin: 1rem 0 1rem 1rem;
+}
+
+text{
+  color: hsl(0, 0%, 100%);
+}
+
+span{
+  font-weight: 100;
+  color:  rgb(180, 180, 180) ;
+}
+
+@media screen and (min-width: 501px) {
+  body{
+    font-size: 11px;
+  }
+
+  .container{
+    max-width: 275px;
+    margin:auto;
+    height: 80vh;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  article>img{
+    max-width: 88%;
+    border-radius: 0.6rem;
+    margin-top: 0.8rem;
+  }
+
+  .text{
+    font-size: 12px;
+    width: 70%;
+  }
+
+  div>.lil-txt1{
+    margin: 0 0 1rem 4.7rem;
+    color: gray;
+  }
+
+  div>.lil-txt{
+    margin: 0 0 1rem 1rem;
+    color: hsl(178, 100%, 50%);
+  }
+
+  .footer{
+    margin-bottom: 20rem;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .container{
+    height: 75vh;
+  }
+}
